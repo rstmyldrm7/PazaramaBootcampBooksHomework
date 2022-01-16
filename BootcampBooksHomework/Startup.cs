@@ -24,6 +24,7 @@ namespace BootcampBooksHomework
         {
             services.AddRazorPages();
             services.AddScoped<IBookService, BookManager>();
+            services.AddScoped<ICategoryService, CategoryManager>();
             services.AddDbContext<BookContext>(options => options.UseSqlServer(Configuration.GetConnectionString("MsSQLConnection")));
         }
 

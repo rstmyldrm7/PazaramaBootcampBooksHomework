@@ -1,4 +1,5 @@
-﻿using BootcampBooksHomeworkCore.Data;
+﻿using BootcampBooksHomeworkBusiness.Abstract;
+using BootcampBooksHomeworkCore.Data;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -10,15 +11,15 @@ namespace BootcampMovieApp.ViewComponents
     public class CategoriesViewComponent : ViewComponent
     {
 
-        private readonly BookContext _context;
-        public CategoriesViewComponent(BookContext context)
+        private readonly ICategoryService _categoryService;
+        public CategoriesViewComponent(ICategoryService categoryService) //Constructorımızda context nesnemizi tanmımlıyoruz. 
         {
-            _context = context;
+            _categoryService = categoryService;
         }
         public IViewComponentResult Invoke()
         {
             ViewBag.SelectedGenre = RouteData.Values["id"];
-            return View(_context.Categories.ToList());
+            return View(_categoryService.GetCategories().ToList());
         }
     }
 }
