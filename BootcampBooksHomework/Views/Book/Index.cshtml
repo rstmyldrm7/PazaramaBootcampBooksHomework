@@ -1,0 +1,17 @@
+﻿@model HomePageViewModel
+
+
+@section header
+{
+    @await Html.PartialAsync("_header")
+}
+@section scripts {
+    <script src="~/js/script.js"></script>
+}
+
+<div id="filmler">
+    @foreach (var book in Model.books)
+    {
+        @await Html.PartialAsync("_book", book)
+    }
+</div>

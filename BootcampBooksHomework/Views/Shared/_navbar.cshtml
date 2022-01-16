@@ -1,0 +1,23 @@
+﻿<nav class="navbar navbar-expand-lg navbar-dark bg-info">
+    <div class="container">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarToggler">
+            <img src="/img/Pazarama.png" width="100" class="img-fluid" />
+            <a href="/" class="navbar-brand ml-3">Bootcamp Book Homework</a>
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a href="/Book/List" class="nav-link">Kitaplar</a>
+                </li>
+                <li class="nav-item">
+                    <a href="/Book/Create" class="nav-link">Kitap Oluştur</a>
+                </li>
+            </ul>
+            <form action="/Book/List" method="get" class="form-inline">
+                <input type="text" name="q" placeholder="Kitap Ara" class="form-control mr-2" />
+                <button type="submit" class="btn btn-outline-light mr-0">Ara</button>
+            </form>
+        </div>
+    </div>
+</nav>
