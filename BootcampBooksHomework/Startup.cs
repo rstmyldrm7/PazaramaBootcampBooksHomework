@@ -1,3 +1,5 @@
+using BootcampBooksHomeworkBusiness.Abstract;
+using BootcampBooksHomeworkBusiness.Concrete;
 using BootcampBooksHomeworkCore.Data;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -21,6 +23,7 @@ namespace BootcampBooksHomework
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddRazorPages();
+            services.AddScoped<IBookService, BookManager>();
             services.AddDbContext<BookContext>(options => options.UseSqlServer(Configuration.GetConnectionString("MsSQLConnection")));
         }
 

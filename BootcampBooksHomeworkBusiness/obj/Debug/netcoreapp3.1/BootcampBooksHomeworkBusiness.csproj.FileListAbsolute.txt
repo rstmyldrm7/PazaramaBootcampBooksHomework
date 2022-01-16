@@ -1,0 +1,14 @@
+C:\Users\rustem.yildirim\Documents\GitHub\PazaramaBootcampBooksHomework\BootcampBooksHomeworkBusiness\bin\Debug\netcoreapp3.1\BootcampBooksHomeworkBusiness.deps.json
+C:\Users\rustem.yildirim\Documents\GitHub\PazaramaBootcampBooksHomework\BootcampBooksHomeworkBusiness\bin\Debug\netcoreapp3.1\BootcampBooksHomeworkBusiness.dll
+C:\Users\rustem.yildirim\Documents\GitHub\PazaramaBootcampBooksHomework\BootcampBooksHomeworkBusiness\bin\Debug\netcoreapp3.1\BootcampBooksHomeworkBusiness.pdb
+C:\Users\rustem.yildirim\Documents\GitHub\PazaramaBootcampBooksHomework\BootcampBooksHomeworkBusiness\bin\Debug\netcoreapp3.1\BootcampBooksHomeworkCore.dll
+C:\Users\rustem.yildirim\Documents\GitHub\PazaramaBootcampBooksHomework\BootcampBooksHomeworkBusiness\bin\Debug\netcoreapp3.1\BootcampBooksHomeworkDTO.dll
+C:\Users\rustem.yildirim\Documents\GitHub\PazaramaBootcampBooksHomework\BootcampBooksHomeworkBusiness\bin\Debug\netcoreapp3.1\BootcampBooksHomeworkCore.pdb
+C:\Users\rustem.yildirim\Documents\GitHub\PazaramaBootcampBooksHomework\BootcampBooksHomeworkBusiness\bin\Debug\netcoreapp3.1\BootcampBooksHomeworkDTO.pdb
+C:\Users\rustem.yildirim\Documents\GitHub\PazaramaBootcampBooksHomework\BootcampBooksHomeworkBusiness\obj\Debug\netcoreapp3.1\BootcampBooksHomeworkBusiness.csprojAssemblyReference.cache
+C:\Users\rustem.yildirim\Documents\GitHub\PazaramaBootcampBooksHomework\BootcampBooksHomeworkBusiness\obj\Debug\netcoreapp3.1\BootcampBooksHomeworkBusiness.AssemblyInfoInputs.cache
+C:\Users\rustem.yildirim\Documents\GitHub\PazaramaBootcampBooksHomework\BootcampBooksHomeworkBusiness\obj\Debug\netcoreapp3.1\BootcampBooksHomeworkBusiness.AssemblyInfo.cs
+C:\Users\rustem.yildirim\Documents\GitHub\PazaramaBootcampBooksHomework\BootcampBooksHomeworkBusiness\obj\Debug\netcoreapp3.1\BootcampBooksHomeworkBusiness.csproj.CoreCompileInputs.cache
+C:\Users\rustem.yildirim\Documents\GitHub\PazaramaBootcampBooksHomework\BootcampBooksHomeworkBusiness\obj\Debug\netcoreapp3.1\BootcampBooksHomeworkBusiness.csproj.CopyComplete
+C:\Users\rustem.yildirim\Documents\GitHub\PazaramaBootcampBooksHomework\BootcampBooksHomeworkBusiness\obj\Debug\netcoreapp3.1\BootcampBooksHomeworkBusiness.dll
+C:\Users\rustem.yildirim\Documents\GitHub\PazaramaBootcampBooksHomework\BootcampBooksHomeworkBusiness\obj\Debug\netcoreapp3.1\BootcampBooksHomeworkBusiness.pdb

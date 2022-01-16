@@ -5,9 +5,11 @@ VisualStudioVersion = 16.0.31129.286
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BootcampBooksHomework", "BootcampBooksHomework\BootcampBooksHomework.csproj", "{577A5955-4E6E-4F2D-8F45-A91203E345EB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BootcampBooksHomeworkDTO", "BootcampBooksHomeworkDTO\BootcampBooksHomeworkDTO.csproj", "{C9EDA76F-9533-4D78-B247-181D8EB511F9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BootcampBooksHomeworkDTO", "BootcampBooksHomeworkDTO\BootcampBooksHomeworkDTO.csproj", "{C9EDA76F-9533-4D78-B247-181D8EB511F9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BootcampBooksHomeworkCore", "BootcampBooksHomeworkCore\BootcampBooksHomeworkCore.csproj", "{293DB7D1-E934-4EB5-82C1-A7C0ED67843F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BootcampBooksHomeworkCore", "BootcampBooksHomeworkCore\BootcampBooksHomeworkCore.csproj", "{293DB7D1-E934-4EB5-82C1-A7C0ED67843F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BootcampBooksHomeworkBusiness", "BootcampBooksHomeworkBusiness\BootcampBooksHomeworkBusiness.csproj", "{15232A4F-5FAC-48B2-B5C3-FCE33753E7D4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{293DB7D1-E934-4EB5-82C1-A7C0ED67843F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{293DB7D1-E934-4EB5-82C1-A7C0ED67843F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{293DB7D1-E934-4EB5-82C1-A7C0ED67843F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15232A4F-5FAC-48B2-B5C3-FCE33753E7D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15232A4F-5FAC-48B2-B5C3-FCE33753E7D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15232A4F-5FAC-48B2-B5C3-FCE33753E7D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15232A4F-5FAC-48B2-B5C3-FCE33753E7D4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

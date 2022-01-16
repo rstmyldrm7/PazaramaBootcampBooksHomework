@@ -322,3 +322,5 @@ C:\Users\rustem.yildirim\Documents\GitHub\PazaramaBootcampBooksHomework\Bootcamp
 C:\Users\rustem.yildirim\Documents\GitHub\PazaramaBootcampBooksHomework\BootcampBooksHomework\obj\Debug\netcoreapp3.1\BootcampBooksHomework.dll
 C:\Users\rustem.yildirim\Documents\GitHub\PazaramaBootcampBooksHomework\BootcampBooksHomework\obj\Debug\netcoreapp3.1\BootcampBooksHomework.pdb
 C:\Users\rustem.yildirim\Documents\GitHub\PazaramaBootcampBooksHomework\BootcampBooksHomework\obj\Debug\netcoreapp3.1\BootcampBooksHomework.genruntimeconfig.cache
+C:\Users\rustem.yildirim\Documents\GitHub\PazaramaBootcampBooksHomework\BootcampBooksHomework\bin\Debug\netcoreapp3.1\BootcampBooksHomeworkBusiness.dll
+C:\Users\rustem.yildirim\Documents\GitHub\PazaramaBootcampBooksHomework\BootcampBooksHomework\bin\Debug\netcoreapp3.1\BootcampBooksHomeworkBusiness.pdb

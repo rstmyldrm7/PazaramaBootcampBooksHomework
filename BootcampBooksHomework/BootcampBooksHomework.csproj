@@ -19,6 +19,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\BootcampBooksHomeworkBusiness\BootcampBooksHomeworkBusiness.csproj" />
     <ProjectReference Include="..\BootcampBooksHomeworkCore\BootcampBooksHomeworkCore.csproj" />
     <ProjectReference Include="..\BootcampBooksHomeworkDTO\BootcampBooksHomeworkDTO.csproj" />
   </ItemGroup>

@@ -1,4 +1,5 @@
 ﻿using BootcampBooksHomework.Models;
+using BootcampBooksHomeworkBusiness.Abstract;
 using BootcampBooksHomeworkCore.Data;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -10,17 +11,19 @@ namespace BootcampBooksHomework.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly BookContext _context;
-
-        public HomeController(BookContext context) //Constructorımızda context nesnemizi tanmımlıyoruz. 
+        private readonly IBookService _bookService;
+        public HomeController(IBookService bookService) //Constructorımızda context nesnemizi tanmımlıyoruz. 
         {
-            _context = context;
+            _bookService = bookService;
         }
 
         public IActionResult Index() //Giriş sayfası kitapları listelemek için dönüş yapıyoruz.
         {
-            HomePageViewModel model = new HomePageViewModel();
-            model.books = _context.Books.ToList();
+            var books = _bookService.GetBooks().ToList();
+            var model = new HomePageViewModel()
+            {
+                books = books.ToList()
+            };
             return View(model);
         }
 
